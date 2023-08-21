@@ -1,0 +1,10 @@
+# Bỏ qua thư mục AR_backend/node_modules
+AR_backend/node_modules
+
+# Bỏ qua tất cả các tệp tin trong AR_Project
+# Không bỏ qua AR_Project/Assets/Plugins
+AR_Project/*
+!/AR_Project/Assets/Plugins/*
+
+# Không bỏ qua AR_Project/Assets/WS_Client.cs
+!/AR_Project/Assets/WS_Client.cs

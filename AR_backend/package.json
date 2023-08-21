@@ -1,0 +1,22 @@
+{
+  "name": "ar_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node  -L index",
+    "dev1": "nodemon --exec babel-node  -L client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/node": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  }
+}
